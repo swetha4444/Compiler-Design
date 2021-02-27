@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	int a=10,b=20;
+	float c=10.4,d=20.5;
+	char str[]="hello";
+	if(a == b)
+		printf("a is greater");
+	else
+		printf("b is greater");
+  return 0;
+}

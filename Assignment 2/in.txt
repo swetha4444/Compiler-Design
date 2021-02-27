@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+	int a=10,b=20;
+	float c=10.4,d=20.5;
+	float ans;
+	if(a == b)
+		printf("a is greater");
+	else
+		printf("b is greater");
+	for(int i=0;i<10;i++)
+	{
+		if(c && d)
+			ans = c<<2;
+		else if(c || d)
+			ans = ~d;
+		else
+			break;
+	}
+	/*
+		Muliti-lined Comment
+	*/
+	//Single-lined Comment
+  	return 0;
+}
